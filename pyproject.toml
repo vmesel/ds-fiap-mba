@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ds-fiap-mba"
+version = "0.1.0"
+description = ""
+authors = ["Vinicius Mesel <4984147+vmesel@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "ds_fiap_mba"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.26.4"
+scikit-learn = "^1.4.1.post1"
+matplotlib = "^3.8.3"
+statsmodels = "^0.14.1"
+ipykernel = "^6.29.3"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
